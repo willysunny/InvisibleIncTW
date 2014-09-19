@@ -100,12 +100,12 @@ local STRINGS=
 
 	GUARD_STATUS = 
 	{
-		STATUS = "STATUS:",
-		PATROLLING = "PATROLLING",
-		IDLE = "STATIONARY",
-		INVESTIGATING = "INVESTIGATING",
-		HUNTING = "HUNTING",
-		COMBAT = "ALERT",
+		STATUS = "狀態:",
+		PATROLLING = "巡邏中",
+		IDLE = "定點警戒",
+		INVESTIGATING = "調查中",
+		HUNTING = "獵捕中",
+		COMBAT = "警戒",
 	},
 
 	PROGRAMS = 

@@ -323,10 +323,10 @@ local STRINGS=
 
 		DIFFICULTY = 
 		{
-			"GUARDED",
-			"VERY GUARDED",
-			"HEAVILY GUARDED",
-			"EXTREMELY GUARDED",
+			"守備中",
+			"仔細守備中",
+			"非常仔細守備中",
+			"超級仔細守備中",
 		},
 
 		NORMAL_DIFFICULTY = "Easy", 

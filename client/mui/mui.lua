@@ -157,8 +157,7 @@ local function parseUI( key, t )
 			if fontfile then
 				local font = MOAIFont.new ()
 				assert( MOAIFileSystem.checkFileExists( fontfile ), styledef.font .. " does not exist!" )
-				--font:loadFromBMFont( fontfile )
-				font:loadFromTTF("font.ttf"," abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789,.?!",14)
+				font:loadFromBMFont( fontfile )
 				if fontfile:find( ".sdf" ) then
 					font:setFlags( MOAIFont.FONT_SIGNED_DISTANCE_FIELD )
 				end
